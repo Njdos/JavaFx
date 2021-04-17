@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usersstuff.usersstuff">
+    <children>
+        <Pane layoutX="69.0" prefHeight="600.0" prefWidth="932.0" style="-fx-background-color: #4FA3F7;">
+            <children>
+                <Rectangle fx:id="MainPhotoo" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="14.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                <Rectangle fx:id="PhotoN22" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="239.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                <Rectangle fx:id="PhotoN33" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="466.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                <Rectangle fx:id="PhotoN44" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="701.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                <Button fx:id="SendMessange" layoutX="266.0" layoutY="508.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="329.0" style="-fx-background-radius: 15;" text="Send Messange" textAlignment="CENTER">
+                    <font>
+                        <Font name="Bauhaus 93" size="21.0" />
+                    </font>
+                </Button>
+            <Text fx:id="tip" disable="true" layoutX="14.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="239.13671875">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+            <Text fx:id="price" disable="true" layoutX="14.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="239.13671875">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+            <JFXTextArea fx:id="opise" disable="true" editable="false" layoutX="270.0" layoutY="231.0" prefHeight="230.0" prefWidth="632.0" />
+            <Rectangle fx:id="Loving1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="69.0" layoutX="863.0" layoutY="533.0" stroke="BLACK" strokeType="INSIDE" width="69.0" />
+            <Button fx:id="love1" layoutX="863.0" layoutY="533.0" mnemonicParsing="false" opacity="0.0" prefHeight="69.0" prefWidth="69.0" />
+            <Text fx:id="title" disable="true" layoutX="26.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="239.13671875">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+            </children></Pane>
+        <ImageView fitHeight="69.0" fitWidth="69.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icon/icons8-лайк-с-заливкой-100.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="69.0" fitWidth="69.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icon/icons8-мужчина-пользователь-3-40.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="69.0" fitWidth="69.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icon/qweqwe.png" />
+            </image>
+        </ImageView>
+        <Line endX="34.0" layoutX="35.0" layoutY="119.0" startX="-35.0" stroke="WHITE" />
+        <Line endX="34.0" layoutX="35.0" layoutY="475.0" startX="-35.0" stroke="WHITE" />
+        <Line endX="34.0" layoutX="35.0" layoutY="348.0" startX="-35.0" stroke="WHITE" />
+        <Line endX="34.0" layoutX="35.0" layoutY="238.0" startX="-35.0" stroke="WHITE" />
+        <Button fx:id="userSetting" layoutY="475.0" mnemonicParsing="false" opacity="0.0" prefHeight="125.0" prefWidth="69.0" />
+        <Button fx:id="messange" layoutY="349.0" mnemonicParsing="false" opacity="0.0" prefHeight="125.0" prefWidth="69.0" />
+        <ImageView fitHeight="69.0" fitWidth="76.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icon/home.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="home" mnemonicParsing="false" opacity="0.0" prefHeight="119.0" prefWidth="69.0" />
+        <Button fx:id="love" layoutY="239.0" mnemonicParsing="false" opacity="0.0" prefHeight="108.0" prefWidth="69.0" />
+          <Button fx:id="search" layoutY="119.0" mnemonicParsing="false" opacity="0.0" prefHeight="119.0" prefWidth="69.0" />
+          <ImageView fitHeight="69.0" fitWidth="69.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@../icon/zoom-in--v2.png" />
+              </image>
+          </ImageView>
+    </children>
+
+</AnchorPane>
